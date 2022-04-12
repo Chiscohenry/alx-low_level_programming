@@ -6,14 +6,18 @@
  */
 void print_alphabet(void)
 {
-		char c = 'a';
-
-			while (c <= 'z')
-					{
-								_putchar(c);
-										c++;
-
-											}
-				_putchar('\n');
-
+	char c;
+	int i = 0;
+	
+	while (i < 10)
+	{
+		c = 'a';
+		while (c <= 'z')
+		{
+			_putvhar (c);
+			c++;
+		}
+		_putchar('\n')
+			i++;
+	}
 }
