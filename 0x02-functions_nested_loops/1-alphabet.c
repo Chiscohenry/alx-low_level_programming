@@ -1,23 +1,17 @@
 #include "main.h"
 /**
  * print_alphabet - Entry point
- *
- *  Return:0
+ * Return:0
  */
-void print_alphabet(void)
+
+void print_alphanet(void)
 {
-	char c;
-	int i = 0;
-	
-	while (i < 10)
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		c = 'a';
-		while (c <= 'z')
-		{
-			_putvhar (c);
-			c++;
-		}
-		_putchar('\n')
-			i++;
+		_putchar(c)
+		C++;
 	}
+	_putchar('\n');
 }
